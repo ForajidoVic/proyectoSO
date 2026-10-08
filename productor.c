@@ -3,7 +3,7 @@
 #include <string.h>
 #include <mosquitto.h>
 #include <json-c/json.h>
-
+//para probar git
 // Definición de la estructura del estudiante
 typedef struct {
     char nombre[50];

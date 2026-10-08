@@ -3,7 +3,7 @@
 #include <string.h>
 #include <mosquitto.h>
 #include "libconsulta.h"
-
+//para probar
 // Callback para procesar mensajes
 void on_message(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *msg) {
     printf("Mensaje recibido: %s\n", (char *)msg->payload);
